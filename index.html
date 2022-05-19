@@ -2,16 +2,65 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>Html forms</title>
+    <title>Marioclub</title>
   </head>
   <body>
-    <h2>Inline El</h2>
-
-    <span>span tag</span>
-    <em>em tag</em>
-    <a href="">anchor tag</a>
-    <span>span tag</span>
-
-    <div>div tag</div>
+    <header>
+      <h1>Marioclub</h1>
+    </header>
+    <section class="banner">
+      <img src="img/banner.png" alt="marioclub welcome banneer" />
+      <div>
+        <h2 class="welcome">Welcome to <br /><span>Marioclub</span></h2>
+      </div>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/join.html" class="join">Join the club</a></li>
+        <li><a href="/news.html">Latest news</a></li>
+        <li><a href="/games.html">New games</a></li>
+        <li><a href="/contac.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>It's a me, Mario</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          aspernatur laborum blanditiis aliquid vel nulla deleniti saepe
+          sapiente a sed, alias consectetur veritatis, laudantium dolor, aliquam
+          ratione sint quas perferendis. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Repudiandae provident quasi eveniet in error vel
+          molestias numquam porro a placeat iusto ratione, fugit mollitia
+          aspernatur hic natus fuga possimus quae! Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Doloribus fuga autem, quasi laborum
+          natus earum vel numquam nihil delectus ipsam excepturi minima
+          perferendis ut commodi facilis velit nam minus ipsum.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="img/thumb-1.png" alt="mario thumb1" /></li>
+        <li><img src="img/thumb-2.png" alt="mario thumb2" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join Today!</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis
+        in minima quaerat aperiam hic amet! Modi, at, voluptatum quaerat ab,
+        illum dolore rem commodi non quia tenetur praesentium odio.
+      </p>
+      <form>
+        <input
+          type="email"
+          name="email"
+          placeholder="Type email & hit enter"
+          required
+        />
+      </form>
+    </section>
+    <footer>
+      <p class="copyright">Copyright 2019 Marioclub</p>
+    </footer>
   </body>
 </html>
